@@ -34,7 +34,6 @@ body {
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: cornflowerblue;
     color: aliceblue;
