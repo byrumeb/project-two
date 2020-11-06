@@ -10,10 +10,41 @@ body {
 
   }
   
+
   p {
-    font-family: Ubuntu; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    font-family: "Ubuntu"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
     color: midnightblue;
     text-align: center;
-
     
+  }
+
+
+
+
+  .topnav {
+    background-color: firebrick;
+    overflow: hidden;
+    font-family: "Ubuntu"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: midnightblue;
+    color: aliceblue;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: midnightblue;
+    color: aliceblue;
   }
