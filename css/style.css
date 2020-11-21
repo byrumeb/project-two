@@ -86,3 +86,19 @@ nav ul li a {
     background-color: midnightblue;
     color: aliceblue;
   }
+
+
+
+
+
+  /* Footer */
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    padding: 20px 20px;
+}
+
+footer a {
+    color: white; 
+}
