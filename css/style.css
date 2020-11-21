@@ -88,7 +88,18 @@ nav ul li a {
   }
 
 
-
+/* Navigation Desktop */
+@media (min-width: 768px) {
+    nav {
+        padding: 0 40px;
+    }
+nav ul {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+}
 
 
   /* Footer */
